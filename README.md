@@ -1,14 +1,14 @@
 # Freebox SDK Go
 
-## Tested hardware and features
+## Supported hardware and features
 
 For hardware versions and revisions, see [Wikipédia](https://fr.wikipedia.org/wiki/Freebox) (french).
 
 ### Authentication
 
-|                  | V8 (Pop/Pro) | V7 (Delta/One) | V6 (Révolution/Mini 4K) | V5 (Crystal) |
-|------------------|--------------|----------------|-------------------------|--------------|
-|**Authentication**| X            |                |                         |              |
+|                                            | V8 (Pop/Pro)     | V7 (Delta/One) | V6 (Révolution/Mini 4K) | V5 (Crystal) |
+|--------------------------------------------|------------------|----------------|-------------------------|--------------|
+|**Authorization** (`request_authorization`) | **X** (via LCD)  | N/A            | N/A                     | N/A          |
 
 ### Configuration
 
@@ -22,3 +22,7 @@ For hardware versions and revisions, see [Wikipédia](https://fr.wikipedia.org/w
 |**VPN Client**    | X            |                |                         |              |
 |**VPN Server**    | X            |                |                         |              |
 |**WiFi**          | X            |                |                         |              |
+
+## Additional information
+
+Freebox Pop datasheet (French): https://www.free.fr/freebox/freebox-pop/
